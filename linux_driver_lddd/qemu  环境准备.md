@@ -42,3 +42,6 @@ Ethernet controller: Advanced Micro Devices, Inc. [AMD] 79c970 [PCnet32 LANCE] (
   *  1. 关闭虚拟机
   *  2. 在虚拟机的 .vmx文件（在你安装的目录下），最后添加 ethernet0.virtualDev = “e1000” 
   *  3. 重启虚拟机，你就会惊喜的发现网络从全黑的wifi标志编程了传输标志啦！
+
+#### 6. 利用vscode 搭建远程虚拟机开发环境。
+* 没有搭建起来，ssh的版本太低了。
